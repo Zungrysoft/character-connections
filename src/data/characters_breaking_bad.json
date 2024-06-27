@@ -1,0 +1,685 @@
+{
+    "walt": {
+        "name": "Walter White",
+        "aliases": [
+            "Walter H. White",
+            "Walter Hartwell White",
+            "Heisenberg"
+        ],
+        "connections": {
+            "jesse": {
+                "relationship": "is partners with",
+                "level": 3
+            },
+            "skyler": {
+                "relationship": "is married to",
+                "level": 3
+            },
+            "flynn": {
+                "relationship": "is the father of",
+                "level": 3
+            },
+            "holly": {
+                "relationship": "is the father of",
+                "level": 3
+            },
+            "jimmy": {
+                "relationship": "is a client of",
+                "level": 3
+            },
+            "mike": {
+                "relationship": "is partners with",
+                "level": 3
+            },
+            "lydia": {
+                "relationship": "does business with",
+                "level": 3
+            },
+            "tuco": {
+                "relationship": "does business with",
+                "level": 3
+            },
+            "louis": {
+                "relationship": "knows",
+                "level": 2
+            },
+            "nodoze": {
+                "relationship": "met",
+                "level": 2
+            },
+            "gonzo": {
+                "relationship": "met",
+                "level": 2
+            },
+            "emilio": {
+                "relationship": "killed",
+                "level": 3
+            },
+            "fring": {
+                "relationship": "is the employee of",
+                "level": 3
+            },
+            "hector": {
+                "relationship": "is a co-conspirator with",
+                "level": 3
+            }
+        }
+    },
+    "jesse": {
+        "name": "Jesse Pinkman",
+        "aliases": [
+            "Captain Cook",
+            "Cap'n Cook",
+            "The Blowfish"
+        ],
+        "connections": {
+            "walt": {
+                "relationship": "is partners with",
+                "level": 3
+            },
+            "skyler": {
+                "relationship": "knows",
+                "level": 2
+            },
+            "jimmy": {
+                "relationship": "is a client of",
+                "level": 3
+            },
+            "mike": {
+                "relationship": "is partners with",
+                "level": 3
+            },
+            "lydia": {
+                "relationship": "does business with",
+                "level": 3
+            },
+            "tuco": {
+                "relationship": "does business with",
+                "level": 3
+            },
+            "kim": {
+                "relationship": "met",
+                "level": 2
+            },
+            "emilio": {
+                "relationship": "is partners with",
+                "level": 3
+            },
+            "fring": {
+                "relationship": "is the employee of",
+                "level": 3
+            },
+            "eladio": {
+                "relationship": "met",
+                "level": 2
+            },
+            "hector": {
+                "relationship": "met",
+                "level": 2
+            }
+        }
+    },
+    "skyler": {
+        "name": "Skyler White",
+        "aliases": [],
+        "connections": {
+            "walt": {
+                "relationship": "is married to",
+                "level": 3
+            },
+            "flynn": {
+                "relationship": "is the mother of",
+                "level": 3
+            },
+            "holly": {
+                "relationship": "is the mother of",
+                "level": 3
+            },
+            "jesse": {
+                "relationship": "knows",
+                "level": 2
+            },
+            "jimmy": {
+                "relationship": "is a client of",
+                "level": 3
+            },
+            "lydia": {
+                "relationship": "met",
+                "level": 1
+            },
+            "louis": {
+                "relationship": "knows",
+                "level": 2
+            }
+        }
+    },
+    "flynn": {
+        "name": "Walter Jr.",
+        "aliases": [
+            "Walter Jr.",
+            "Walter Junior",
+            "Walter White Junior",
+            "Walter White Jr.",
+            "Flynn"
+        ],
+        "connections": {
+            "walt": {
+                "relationship": "is the son of",
+                "level": 3
+            },
+            "skyler": {
+                "relationship": "is the son of",
+                "level": 3
+            },
+            "jimmy": {
+                "relationship": "met",
+                "level": 3
+            },
+            "louis": {
+                "relationship": "is friends with",
+                "level": 3
+            }
+        }
+    },
+    "louis": {
+        "name": "Louis Corbett",
+        "aliases": [],
+        "connections": {
+            "flynn": {
+                "relationship": "is friends with",
+                "level": 3
+            },
+            "walt": {
+                "relationship": "knows",
+                "level": 2
+            },
+            "skyler": {
+                "relationship": "knows",
+                "level": 2
+            }
+        }
+    },
+    "holly": {
+        "name": "Holly White",
+        "aliases": [],
+        "connections": {
+            "walt": {
+                "relationship": "is the daughter of",
+                "level": 3
+            },
+            "skyler": {
+                "relationship": "is the daughter of",
+                "level": 3
+            }
+        }
+    },
+    "mike": {
+        "name": "Mike Ehrmantraut",
+        "aliases": [
+            "Michael Ehrmantraut",
+            "Mr. Ehrmantraut",
+            "Uncle Fester",
+            "Mr. Magoo",
+            "Detective Dave Clark",
+            "Billy Jackoff",
+            "Pop Pop"
+        ],
+        "connections": {
+            "walt": {
+                "relationship": "is partners with",
+                "level": 3
+            },
+            "jesse": {
+                "relationship": "is partners with",
+                "level": 3
+            },
+            "jimmy": {
+                "relationship": "works with",
+                "level": 3
+            },
+            "lydia": {
+                "relationship": "does business with",
+                "level": 3
+            },
+            "tuco": {
+                "relationship": "was beaten up by",
+                "level": 3
+            },
+            "kaylee": {
+                "relationship": "is the grandfather of",
+                "level": 3
+            },
+            "stacy": {
+                "relationship": "is the father-in-law of",
+                "level": 3
+            },
+            "fring": {
+                "relationship": "is the employee of",
+                "level": 3
+            },
+            "eladio": {
+                "relationship": "met",
+                "level": 1
+            }
+        }
+    },
+    "fring": {
+        "name": "Gustavo Fring",
+        "aliases": [
+            "Gus Fring"
+        ],
+        "connections": {
+            "walt": {
+                "relationship": "is the boss of",
+                "level": 3
+            },
+            "jesse": {
+                "relationship": "is the boss of",
+                "level": 3
+            },
+            "mike": {
+                "relationship": "is the boss of",
+                "level": 3
+            },
+            "lydia": {
+                "relationship": "works with",
+                "level": 3
+            },
+            "eladio": {
+                "relationship": "does business with",
+                "level": 3
+            },
+            "bolsa": {
+                "relationship": "does business with",
+                "level": 3
+            },
+            "hector": {
+                "relationship": "does business with",
+                "level": 3
+            }
+        }
+    },
+    "lydia": {
+        "name": "Lydia Rodarte-Quayle",
+        "aliases": [],
+        "connections": {
+            "walt": {
+                "relationship": "does business with",
+                "level": 3
+            },
+            "jesse": {
+                "relationship": "does business with",
+                "level": 3
+            },
+            "mike": {
+                "relationship": "does business with",
+                "level": 3
+            },
+            "fring": {
+                "relationship": "works with",
+                "level": 3
+            },
+            "skyler": {
+                "relationship": "met",
+                "level": 1
+            }
+        }
+    },
+    "jimmy": {
+        "name": "Jimmy McGill",
+        "aliases": [
+            "James M. McGill",
+            "James McGill",
+            "Saul Goodman",
+            "Slippin' Jimmy",
+            "Slipping Jimmy",
+            "Gene Takavic",
+            "The Magic Man",
+            "Charlie Hustle",
+            "Viktor St. Claire",
+            "Mr. Cumpston",
+            "Kevin Costner",
+            "Special Agent Jeffrey A. Steel"
+        ],
+        "connections": {
+            "jesse": {
+                "relationship": "provides legal counsel for",
+                "level": 3
+            },
+            "skyler": {
+                "relationship": "provides legal counsel for",
+                "level": 3
+            },
+            "walt": {
+                "relationship": "provides legal counsel for",
+                "level": 3
+            },
+            "mike": {
+                "relationship": "works with",
+                "level": 3
+            },
+            "kim": {
+                "relationship": "is married to",
+                "level": 3
+            },
+            "chuck": {
+                "relationship": "is the brother of",
+                "level": 3
+            },
+            "howard": {
+                "relationship": "knows",
+                "level": 3
+            },
+            "tuco": {
+                "relationship": "was threatened by",
+                "level": 3
+            },
+            "flynn": {
+                "relationship": "met",
+                "level": 2
+            },
+            "emilio": {
+                "relationship": "provides legal counsel for",
+                "level": 3
+            }
+        }
+    },
+    "kim": {
+        "name": "Kim Wexler",
+        "aliases": [
+            "Giselle St. Claire"
+        ],
+        "connections": {
+            "jimmy": {
+                "relationship": "is married to",
+                "level": 3
+            },
+            "chuck": {
+                "relationship": "is the employee of",
+                "level": 3
+            },
+            "howard": {
+                "relationship": "is the employee of",
+                "level": 3
+            },
+            "jesse": {
+                "relationship": "met",
+                "level": 2
+            }
+        }
+    },
+    "chuck": {
+        "name": "Chuck McGill",
+        "aliases": [
+            "Charles McGill",
+            "Charles M. McGill"
+        ],
+        "connections": {
+            "jimmy": {
+                "relationship": "is the brother of",
+                "level": 3
+            },
+            "kim": {
+                "relationship": "is the boss of",
+                "level": 3
+            },
+            "howard": {
+                "relationship": "is partners with",
+                "level": 3
+            }
+        }
+    },
+    "howard": {
+        "name": "Howard Hamlin",
+        "aliases": [
+            "Howard G. Hamlin",
+            "H. O. Ward",
+            "Mr. Ward",
+            "Howie",
+            "Lord Vader"
+        ],
+        "connections": {
+            "jimmy": {
+                "relationship": "knows",
+                "level": 3
+            },
+            "kim": {
+                "relationship": "is the boss of",
+                "level": 3
+            },
+            "chuck": {
+                "relationship": "is partners with",
+                "level": 3
+            }
+        }
+    },
+    "tuco": {
+        "name": "Tuco Salamanca",
+        "aliases": [],
+        "connections": {
+            "jimmy": {
+                "relationship": "threatened",
+                "level": 3
+            },
+            "walt": {
+                "relationship": "does business with",
+                "level": 3
+            },
+            "jesse": {
+                "relationship": "does business with",
+                "level": 3
+            },
+            "mike": {
+                "relationship": "beat up",
+                "level": 3
+            },
+            "nodoze": {
+                "relationship": "is the boss of",
+                "level": 3
+            },
+            "gonzo": {
+                "relationship": "is the boss of",
+                "level": 3
+            },
+            "krazy8": {
+                "relationship": "is the boss of",
+                "level": 3
+            },
+            "hector": {
+                "relationship": "is the nephew of",
+                "level": 3
+            }
+        }
+    },
+    "nodoze": {
+        "name": "No-Doze",
+        "aliases": [
+            "No Doze"
+        ],
+        "connections": {
+            "tuco": {
+                "relationship": "works for",
+                "level": 3
+            },
+            "gonzo": {
+                "relationship": "works with",
+                "level": 3
+            },
+            "walt": {
+                "relationship": "met",
+                "level": 3
+            }
+        }
+    },
+    "gonzo": {
+        "name": "Gonzo",
+        "aliases": [],
+        "connections": {
+            "tuco": {
+                "relationship": "works for",
+                "level": 3
+            },
+            "nodoze": {
+                "relationship": "works with",
+                "level": 3
+            },
+            "walt": {
+                "relationship": "met",
+                "level": 3
+            }
+        }
+    },
+    "krazy8": {
+        "name": "Krazy-8",
+        "aliases": [
+            "Krazy 8",
+            "Crazy 8",
+            "Crazy-8",
+            "Ocho Loco",
+            "Domingo Gallardo Molina"
+        ],
+        "connections": {
+            "tuco": {
+                "relationship": "works for",
+                "level": 3
+            },
+            "emilio": {
+                "relationship": "is cousins with",
+                "level": 3
+            }
+        }
+    },
+    "emilio": {
+        "name": "Emilio Koyama",
+        "aliases": [],
+        "connections": {
+            "jesse": {
+                "relationship": "is partners with",
+                "level": 3
+            },
+            "krazy8": {
+                "relationship": "is cousins with",
+                "level": 3
+            },
+            "walt": {
+                "relationship": "was killed by",
+                "level": 3
+            },
+            "jimmy": {
+                "relationship": "is a client of",
+                "level": 3
+            }
+        }
+    },
+    "kaylee": {
+        "name": "Kaylee Ehrmantraut",
+        "aliases": [
+            "The Ageless One"
+        ],
+        "connections": {
+            "mike": {
+                "relationship": "is the granddaughter of",
+                "level": 3
+            },
+            "stacy": {
+                "relationship": "is the daughter of",
+                "level": 3
+            }
+        }
+    },
+    "stacy": {
+        "name": "Stacy Ehrmantraut",
+        "aliases": [],
+        "connections": {
+            "mike": {
+                "relationship": "is the daughter-in-law of",
+                "level": 3
+            },
+            "kaylee": {
+                "relationship": "is the mother of",
+                "level": 3
+            }
+        }
+    },
+    "hector": {
+        "name": "Hector Salamanca",
+        "aliases": [
+            "Tio Salamanca"
+        ],
+        "connections": {
+            "fring": {
+                "relationship": "does business with",
+                "level": 3
+            },
+            "eladio": {
+                "relationship": "is partners with",
+                "level": 3
+            },
+            "bolsa": {
+                "relationship": "is partners with",
+                "level": 3
+            },
+            "walt": {
+                "relationship": "is a co-conspirator with",
+                "level": 3
+            },
+            "jesse": {
+                "relationship": "met",
+                "level": 2
+            },
+            "tuco": {
+                "relationship": "is the uncle of",
+                "level": 3
+            }
+        }
+    },
+    "eladio": {
+        "name": "Don Eladio",
+        "aliases": [
+            "Eladio Vuente",
+            "The Winking Greek"
+        ],
+        "connections": {
+            "fring": {
+                "relationship": "does business with",
+                "level": 3
+            },
+            "jesse": {
+                "relationship": "met",
+                "level": 2
+            },
+            "mike": {
+                "relationship": "met",
+                "level": 1
+            },
+            "bolsa": {
+                "relationship": "is partners with",
+                "level": 3
+            },
+            "hector": {
+                "relationship": "is partners with",
+                "level": 3
+            }
+        }
+    },
+    "bolsa": {
+        "name": "Juan Bolsa",
+        "aliases": [
+            "Don Juan"
+        ],
+        "connections": {
+            "fring": {
+                "relationship": "does business with",
+                "level": 3
+            },
+            "eladio": {
+                "relationship": "is partners with",
+                "level": 3
+            },
+            "hector": {
+                "relationship": "is partners with",
+                "level": 3
+            }
+        }
+    }
+}

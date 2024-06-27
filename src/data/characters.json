@@ -1,175 +1,549 @@
 {
-    "walt": {
-        "name": "Walter White",
-        "aliases": ["Walter H. White", "Walter Hartwell White", "Heisenberg"],
-        "connections": {
-            "jesse": { "relationship": "is partners with", "level": 3 },
-            "skyler": { "relationship": "is married to", "level": 3 },
-            "flynn": { "relationship": "is the father of", "level": 3 },
-            "holly": { "relationship": "is the father of", "level": 3 },
-            "jimmy": { "relationship": "is a client of", "level": 3 },
-            "mike": { "relationship": "is partners with", "level": 3 },
-            "lydia": { "relationship": "does business with", "level": 3 },
-            "tuco": { "relationship": "does business with", "level": 3 },
-            "louis": { "relationship": "knows", "level": 2 }
-        }
-    },
-    "jesse": {
-        "name": "Jesse Pinkman",
-        "aliases": ["Captain Cook", "Cap'n Cook", "The Blowfish"],
-        "connections": {
-            "walt": { "relationship": "is partners with", "level": 3 },
-            "skyler": { "relationship": "knows", "level": 2 },
-            "jimmy": { "relationship": "is a client of", "level": 3 },
-            "mike": { "relationship": "is partners with", "level": 3 },
-            "lydia": { "relationship": "does business with", "level": 3 },
-            "tuco": { "relationship": "does business with", "level": 3 }
-        }
-    },
-    "skyler": {
-        "name": "Skyler White",
+    "turkish": {
+        "name": "Turkish",
         "aliases": [],
         "connections": {
-            "walt": { "relationship": "is married to", "level": 3 },
-            "flynn": { "relationship": "is the mother of", "level": 3 },
-            "holly": { "relationship": "is the mother of", "level": 3 },
-            "jesse": { "relationship": "knows", "level": 2 },
-            "jimmy": { "relationship": "is a client of", "level": 3 },
-            "lydia": { "relationship": "met", "level": 1 },
-            "louis": { "relationship": "knows", "level": 2 }
+            "tommy": {
+                "relationship": "is partners with",
+                "level": 3
+            },
+            "bricktop": {
+                "relationship": "is in debt to",
+                "level": 3
+            },
+            "george": {
+                "relationship": "is the boss of",
+                "level": 3
+            },
+            "mickey": {
+                "relationship": "does business with",
+                "level": 3
+            },
+            "errol": {
+                "relationship": "was threatened by",
+                "level": 2
+            },
+            "doug": {
+                "relationship": "had diamonds appraised by",
+                "level": 3
+            }
         }
     },
-    "flynn": {
-        "name": "Walter White Jr.",
-        "aliases": ["Walter Jr.", "Walter Junior", "Walter White Junior", "Flynn"],
-        "connections": {
-            "walt": { "relationship": "is the son of", "level": 3 },
-            "skyler": { "relationship": "is the son of", "level": 3 },
-            "jimmy": { "relationship": "met", "level": 3 },
-            "louis": { "relationship": "is friends with", "level": 3 }
-        }
-    },
-    "louis": {
-        "name": "Louis Corbett",
+    "tommy": {
+        "name": "Tommy",
         "aliases": [],
         "connections": {
-            "flynn": { "relationship": "is friends with", "level": 3 },
-            "walt": { "relationship": "knows", "level": 2 },
-            "skyler": { "relationship": "knows", "level": 2 }
+            "bricktop": {
+                "relationship": "is in debt to",
+                "level": 3
+            },
+            "george": {
+                "relationship": "works with",
+                "level": 3
+            },
+            "boris": {
+                "relationship": "bought a gun from",
+                "level": 3
+            },
+            "mickey": {
+                "relationship": "does business with",
+                "level": 3
+            },
+            "turkish": {
+                "relationship": "is partners with",
+                "level": 3
+            },
+            "errol": {
+                "relationship": "was threatened by",
+                "level": 2
+            }
         }
     },
-    "holly": {
-        "name": "Holly White",
+    "george": {
+        "name": "Gorgeous George",
         "aliases": [],
         "connections": {
-            "walt": { "relationship": "is the daughter of", "level": 3 },
-            "skyler": { "relationship": "is the daughter of", "level": 3 }
+            "mickey": {
+                "relationship": "was beaten in a fight by",
+                "level": 3
+            },
+            "turkish": {
+                "relationship": "is the employee of",
+                "level": 3
+            },
+            "tommy": {
+                "relationship": "works with",
+                "level": 3
+            },
+            "bricktop": {
+                "relationship": "knows",
+                "level": 1
+            }
         }
     },
-    "mike": {
-        "name": "Mike Ehrmantraut",
-        "aliases": ["Michael Ehrmantraut", "Mr. Ehrmantraut", "Uncle Fester", "Mr. Magoo", "Dave Clark", "Billy Jackoff", "Pop Pop"],
-        "connections": {
-            "walt": { "relationship": "is partners with", "level": 3 },
-            "jesse": { "relationship": "is partners with", "level": 3 },
-            "jimmy": { "relationship": "works with", "level": 3 },
-            "lydia": { "relationship": "does business with", "level": 3 },
-            "skyler": { "relationship": "knows about", "level": 1 },
-            "tuco": { "relationship": "was beaten up by", "level": 3 }
-        }
-    },
-    "lydia": {
-        "name": "Lydia Rodarte-Quayle",
-        "aliases": [],
-        "connections": {
-            "walt": { "relationship": "does business with", "level": 3 },
-            "jesse": { "relationship": "does business with", "level": 3 },
-            "mike": { "relationship": "does business with", "level": 3 },
-            "skyler": { "relationship": "met", "level": 1 }
-        }
-    },
-    "jimmy": {
-        "name": "Jimmy McGill",
+    "bricktop": {
+        "name": "Brick Top",
         "aliases": [
-            "James M. McGill",
-            "James McGill",
-            "Saul Goodman",
-            "Slippin' Jimmy",
-            "Slipping Jimmy",
-            "Gene Takavic",
-            "The Magic Man",
-            "Charlie Hustle",
-            "Viktor St. Claire",
-            "Mr. Cumpston",
-            "Kevin Costner",
-            "Special Agent Jeffrey A. Steel"
+            "The Pig Farmer",
+            "Brick Top Pulford"
         ],
         "connections": {
-            "jesse": { "relationship": "provides legal counsel for", "level": 3 },
-            "skyler": { "relationship": "provides legal counsel for", "level": 3 },
-            "walt": { "relationship": "provides legal counsel for", "level": 3 },
-            "mike": { "relationship": "works with", "level": 3 },
-            "kim": { "relationship": "is married to", "level": 3 },
-            "chuck": { "relationship": "is the brother of", "level": 3 },
-            "howard": { "relationship": "knows", "level": 3 },
-            "tuco": { "relationship": "was threatened by", "level": 3 }
+            "mickey": {
+                "relationship": "threatened",
+                "level": 3
+            },
+            "turkish": {
+                "relationship": "is owed money by",
+                "level": 3
+            },
+            "tommy": {
+                "relationship": "is owed money by",
+                "level": 3
+            },
+            "vinny": {
+                "relationship": "threatened",
+                "level": 2
+            },
+            "sol": {
+                "relationship": "threatened",
+                "level": 2
+            },
+            "tyrone": {
+                "relationship": "tortured",
+                "level": 2
+            },
+            "lincoln": {
+                "relationship": "is known about by",
+                "level": 2
+            },
+            "george": {
+                "relationship": "knows",
+                "level": 1
+            },
+            "errol": {
+                "relationship": "is the boss of",
+                "level": 3
+            }
         }
     },
-    "kim": {
-        "name": "Kim Wexler",
-        "aliases": ["Giselle St. Claire"],
+    "boris": {
+        "name": "Boris The Blade",
+        "aliases": [
+            "Boris Yurinov",
+            "Boris the Bullet Dodger",
+            "Boris the Sneaky Fucking Russian"
+        ],
         "connections": {
-            "jimmy": { "relationship": "is married to", "level": 3 },
-            "chuck": { "relationship": "is the employee of", "level": 3 },
-            "howard": { "relationship": "is the employee of", "level": 3 }
+            "franky": {
+                "relationship": "murdered",
+                "level": 3
+            },
+            "tommy": {
+                "relationship": "sold a gun to",
+                "level": 3
+            },
+            "vinny": {
+                "relationship": "hired",
+                "level": 3
+            },
+            "sol": {
+                "relationship": "hired",
+                "level": 3
+            },
+            "tony": {
+                "relationship": "was (possibly) killed by",
+                "level": 2
+            },
+            "russian": {
+                "relationship": "is brothers with",
+                "level": 3
+            }
         }
     },
-    "chuck": {
-        "name": "Chuck McGill",
-        "aliases": ["Charles McGill", "Charles M. McGill"],
+    "franky": {
+        "name": "Franky Four Fingers",
+        "aliases": [
+            "Boris Yurinov"
+        ],
         "connections": {
-            "jimmy": { "relationship": "is the brother of", "level": 3 },
-            "kim": { "relationship": "is the boss of", "level": 3 },
-            "howard": { "relationship": "is partners with", "level": 3 }
+            "boris": {
+                "relationship": "was murdered by",
+                "level": 3
+            },
+            "doug": {
+                "relationship": "had diamonds appraised by",
+                "level": 3
+            },
+            "avi": {
+                "relationship": "is business partners with",
+                "level": 3
+            },
+            "vinny": {
+                "relationship": "was kidnapped by",
+                "level": 2
+            },
+            "sol": {
+                "relationship": "was kidnapped by",
+                "level": 2
+            },
+            "tyrone": {
+                "relationship": "was kidnapped by",
+                "level": 2
+            },
+            "russian": {
+                "relationship": "is partners with",
+                "level": 3
+            }
         }
     },
-    "howard": {
-        "name": "Howard Hamlin",
-        "aliases": ["Howard G. Hamlin", "H. O. Ward", "Mr. Ward", "Howie", "Lord Vader"],
+    "mickey": {
+        "name": "Mickey O'Neil",
+        "aliases": [
+            "Pikey Mickey O'Neil"
+        ],
         "connections": {
-            "jimmy": { "relationship": "knows", "level": 3 },
-            "kim": { "relationship": "is the boss of", "level": 3 },
-            "chuck": { "relationship": "is partners with", "level": 3 }
+            "bricktop": {
+                "relationship": "got revenge on",
+                "level": 3
+            },
+            "george": {
+                "relationship": "beat up",
+                "level": 3
+            },
+            "turkish": {
+                "relationship": "does business with",
+                "level": 3
+            },
+            "tommy": {
+                "relationship": "does business with",
+                "level": 3
+            },
+            "errol": {
+                "relationship": "was threatened by",
+                "level": 2
+            }
         }
     },
-    "tuco": {
-        "name": "Tuco Salamanca",
+    "doug": {
+        "name": "Doug The Head",
+        "aliases": [
+            "Douggie",
+            "Doug Denovitz"
+        ],
+        "connections": {
+            "franky": {
+                "relationship": "appraised diamonds for",
+                "level": 3
+            },
+            "turkish": {
+                "relationship": "appraised diamonds for",
+                "level": 3
+            },
+            "avi": {
+                "relationship": "is cousins with",
+                "level": 3
+            },
+            "twins": {
+                "relationship": "is the father of",
+                "level": 3
+            }
+        }
+    },
+    "twins": {
+        "name": "Alex and Susi Denovitz",
+        "aliases": [
+            "Alex Denovitz",
+            "Susi Denovitz",
+            "The Twins"
+        ],
+        "connections": {
+            "doug": {
+                "relationship": "are the daughters of",
+                "level": 3
+            },
+            "tony": {
+                "relationship": "know",
+                "level": 3
+            },
+            "avi": {
+                "relationship": "met",
+                "level": 1
+            }
+        }
+    },
+    "avi": {
+        "name": "Cousin Avi",
+        "aliases": [
+            "Cousin Avi Denovitz",
+            "Abraham Denovitz"
+        ],
+        "connections": {
+            "doug": {
+                "relationship": "is cousins with",
+                "level": 3
+            },
+            "franky": {
+                "relationship": "is business partners with",
+                "level": 3
+            },
+            "tony": {
+                "relationship": "hired",
+                "level": 3
+            },
+            "twins": {
+                "relationship": "met",
+                "level": 1
+            },
+            "sol": {
+                "relationship": "threatened",
+                "level": 1
+            },
+            "vinny": {
+                "relationship": "threatened",
+                "level": 1
+            },
+            "mullet": {
+                "relationship": "met",
+                "level": 1
+            },
+            "rosebud": {
+                "relationship": "is the boss of",
+                "level": 3
+            }
+        }
+    },
+    "tony": {
+        "name": "Bullet-Tooth Tony",
+        "aliases": [
+            "Bullet Tooth Tony"
+        ],
+        "connections": {
+            "avi": {
+                "relationship": "works for",
+                "level": 3
+            },
+            "tyrone": {
+                "relationship": "threatened",
+                "level": 2
+            },
+            "sol": {
+                "relationship": "threatened",
+                "level": 2
+            },
+            "vinny": {
+                "relationship": "threatened",
+                "level": 2
+            },
+            "boris": {
+                "relationship": "(possibly) killed",
+                "level": 2
+            },
+            "twins": {
+                "relationship": "knows",
+                "level": 3
+            },
+            "mullet": {
+                "relationship": "threatened",
+                "level": 3
+            },
+            "rosebud": {
+                "relationship": "works with",
+                "level": 3
+            }
+        }
+    },
+    "vinny": {
+        "name": "Vinny",
+        "aliases": [
+            "Vincent"
+        ],
+        "connections": {
+            "boris": {
+                "relationship": "works for",
+                "level": 3
+            },
+            "sol": {
+                "relationship": "works with",
+                "level": 3
+            },
+            "tyrone": {
+                "relationship": "works with",
+                "level": 3
+            },
+            "bricktop": {
+                "relationship": "was threatened by",
+                "level": 2
+            },
+            "tony": {
+                "relationship": "was threatened by",
+                "level": 2
+            },
+            "franky": {
+                "relationship": "kidnapped",
+                "level": 2
+            },
+            "avi": {
+                "relationship": "was threatened by",
+                "level": 1
+            },
+            "lincoln": {
+                "relationship": "works with",
+                "level": 3
+            }
+        }
+    },
+    "sol": {
+        "name": "Sol",
+        "aliases": [
+            "Solomon"
+        ],
+        "connections": {
+            "boris": {
+                "relationship": "works for",
+                "level": 3
+            },
+            "vinny": {
+                "relationship": "works with",
+                "level": 3
+            },
+            "tyrone": {
+                "relationship": "works with",
+                "level": 3
+            },
+            "bricktop": {
+                "relationship": "was threatened by",
+                "level": 2
+            },
+            "tony": {
+                "relationship": "was threatened by",
+                "level": 2
+            },
+            "franky": {
+                "relationship": "kidnapped",
+                "level": 2
+            },
+            "avi": {
+                "relationship": "was threatened by",
+                "level": 1
+            },
+            "lincoln": {
+                "relationship": "works with",
+                "level": 3
+            }
+        }
+    },
+    "tyrone": {
+        "name": "Tyrone",
         "aliases": [],
         "connections": {
-            "jimmy": { "relationship": "threatened", "level": 3 },
-            "walt": { "relationship": "does business with", "level": 3 },
-            "jesse": { "relationship": "does business with", "level": 3 },
-            "mike": { "relationship": "beat up", "level": 3 },
-            "nodoze": { "relationship": "is the boss of", "level": 3 },
-            "gonzo": { "relationship": "is the boss of", "level": 3 }
+            "sol": {
+                "relationship": "works with",
+                "level": 3
+            },
+            "vinny": {
+                "relationship": "works with",
+                "level": 3
+            },
+            "bricktop": {
+                "relationship": "was tortured by",
+                "level": 2
+            },
+            "tony": {
+                "relationship": "was threatened by",
+                "level": 2
+            },
+            "franky": {
+                "relationship": "kidnapped",
+                "level": 2
+            }
         }
     },
-    "nodoze": {
-        "name": "No-Doze",
-        "aliases": ["No Doze"],
-        "connections": {
-            "tuco": { "relationship": "works for", "level": 3 },
-            "gonzo": { "relationship": "works with", "level": 3 },
-            "walt": { "relationship": "does business with", "level": 3 }
-        }
-    },
-    "gonzo": {
-        "name": "Gonzo",
+    "mullet": {
+        "name": "Mullet",
         "aliases": [],
         "connections": {
-            "tuco": { "relationship": "works for", "level": 3 },
-            "nodoze": { "relationship": "works with", "level": 3 },
-            "walt": { "relationship": "does business with", "level": 3 }
+            "tony": {
+                "relationship": "was threatened by",
+                "level": 3
+            },
+            "avi": {
+                "relationship": "met",
+                "level": 1
+            }
+        }
+    },
+    "rosebud": {
+        "name": "Rosebud",
+        "aliases": [],
+        "connections": {
+            "avi": {
+                "relationship": "works for",
+                "level": 3
+            },
+            "tony": {
+                "relationship": "works with",
+                "level": 3
+            }
+        }
+    },
+    "lincoln": {
+        "name": "Bad Boy Lincoln",
+        "aliases": [
+            "Bad Boy Yardie"
+        ],
+        "connections": {
+            "sol": {
+                "relationship": "works with",
+                "level": 3
+            },
+            "vinny": {
+                "relationship": "works with",
+                "level": 3
+            },
+            "bricktop": {
+                "relationship": "knows",
+                "level": 2
+            }
+        }
+    },
+    "errol": {
+        "name": "Errol",
+        "aliases": [],
+        "connections": {
+            "bricktop": {
+                "relationship": "is the employee of",
+                "level": 3
+            },
+            "turkish": {
+                "relationship": "threatened",
+                "level": 2
+            },
+            "tommy": {
+                "relationship": "threatened",
+                "level": 2
+            },
+            "mickey": {
+                "relationship": "threatened",
+                "level": 2
+            }
+        }
+    },
+    "russian": {
+        "name": "The Russian",
+        "aliases": [
+            "Boris's Cousin",
+            "Franky's Partner",
+            "Yurinov"
+        ],
+        "connections": {
+            "franky": {
+                "relationship": "is partners with",
+                "level": 3
+            },
+            "boris": {
+                "relationship": "is brothers with",
+                "level": 3
+            }
         }
     }
 }

@@ -1,9 +1,11 @@
 import CharacterInfoFurthestConnections from './CharacterInfoFurthestConnections';
 
 const CharacterConnections = () => {
-  return <CharacterInfoFurthestConnections
-    character={"tuco"}
-  />
+  return <div>
+    <CharacterInfoFurthestConnections
+      character={"mickey"}
+    />
+  </div>
 };
 
 export default CharacterConnections;
